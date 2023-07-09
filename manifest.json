@@ -4,20 +4,15 @@
     "short_name": "Perforate.App",
     "description": "",
     "version": "0.0.1",
-    "background": { 
-      "scripts" : ["js/background.js"],
-      "persistent": false
-    },
-    "options_page":"options.html",
     "chrome_url_overrides": {
-      "newtab": "main.html"
+      "newtab": "index.html"
     },
     "permissions": ["storage", "chrome://favicon/"],
     "optional_permissions": ["tabs", "topSites", "management", "bookmarks"],
     "icons": {
-      "200": "images/icon200.png",
-      "128": "images/icon128.png",
-      "19":"images/icon19.png"
+      "200": "images/perforate-logo.png",
+      "128": "images/perforate-logo.png",
+      "19":"images/perforate-logo.png"
     },
     "incognito": "split",
     "minimum_chrome_version" : "22"
